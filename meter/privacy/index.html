@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · Shunno Meter</title>
+  <meta name="description" content="Privacy policy for Shunno Meter by Shunno Labs.">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<main>
+  <header class="site"><a href="../../">Shunno Labs</a></header>
+
+  <h1>Privacy Policy — Shunno Meter</h1>
+  <p class="muted">Last updated: 11 October 2026</p>
+
+  <p>Shunno Meter is published by Shunno Labs. This policy explains what the app does with your data.</p>
+
+  <p class="lead">Shunno Meter keeps your data on your device, without analytics, advertising, or trackers. The only thing it sends over the internet is the speed test you start yourself.</p>
+
+  <ul>
+    <li>No analytics, no advertising, no trackers, no accounts, no in-app purchases.</li>
+    <li>Everything the app records stays on your device. We have no servers and receive none of your data.</li>
+    <li>Uninstalling the app deletes all of its data from your device.</li>
+  </ul>
+
+  <h2>What is stored on your device</h2>
+  <p>All of it lives in the app's private storage:</p>
+  <ul>
+    <li><strong>Daily usage</strong>: mobile and Wi-Fi bytes (download and upload) per day, kept for 92 days.</li>
+    <li><strong>Hourly usage</strong>: the same totals per hour, kept for 7 days.</li>
+    <li><strong>Speed tests</strong>: the last 30 results (time, download, upload, latency, jitter, the type of network, and how much data the test used). You can clear them on the speed test page.</li>
+    <li><strong>Per-SIM usage</strong>: on a dual-SIM phone, mobile bytes per SIM, keyed by Android's subscription ID, and each SIM's carrier name, so the split can be labelled. No phone number, IMSI or IMEI is read.</li>
+    <li><strong>Budgets and alerts</strong>: the package names of apps you gave a daily budget, the budgets, and which data-limit and budget alerts have already fired, so each fires once.</li>
+    <li><strong>Counters</strong>: the last traffic counter values the meter saw, so traffic while it was off can be added on its next start.</li>
+    <li><strong>Settings</strong>: every preference you choose.</li>
+    <li><strong>Crash log</strong>: if the app crashes, the error details (app and Android version, device maker and model, time, and the stack trace) are saved so you can see them in Settings &gt; About.</li>
+  </ul>
+
+  <h2>What is not stored</h2>
+  <ul>
+    <li><strong>Per-app usage</strong>: read from Android when you open the App usage screens, shown, and not kept.</li>
+    <li><strong>No backup to Google</strong>: Android's own backup and device-to-device transfer are turned off for this app, so none of the data above is copied to Google Drive or to another phone.</li>
+  </ul>
+
+  <h2>Data that leaves your device</h2>
+  <ul>
+    <li><strong>Speed test</strong>: only when you tap Run, the app downloads from and uploads random bytes to Cloudflare's speed test servers at speed.cloudflare.com for about twenty seconds. As with any connection, Cloudflare receives your IP address; the requests carry only the app's name and version as their user agent, and no identifier or personal data. On a metered connection the app asks first and caps the test at about 200 MB. See <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's privacy policy</a>. Shunno Meter is not affiliated with Cloudflare.</li>
+    <li><strong>Fonts and emoji</strong>: the app's fonts (Outfit, Comfortaa, Nunito, Jost, Space Grotesk) and, where the phone's own emoji are out of date, emoji are requested from Google Play services' font provider on your device, which may download them from Google. The request names only the font. See <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</li>
+  </ul>
+  <p>Nothing else is sent anywhere.</p>
+
+  <h2>Permissions and what they are used for</h2>
+  <p>Every item below is used only on your device.</p>
+  <ul>
+    <li><strong>Notifications</strong>: the live speed is shown as a silent notification, and data-limit and budget alerts are ordinary notifications. Requested only when you turn the meter on or tap Notifications in Settings.</li>
+    <li><strong>Foreground service</strong>: keeps the meter running while it is switched on. You can turn it off from the notification, the Quick Settings tile or the app.</li>
+    <li><strong>Run at startup</strong>: brings the meter back after a restart if you turned on Start on boot, and after the app updates itself if the meter was on.</li>
+    <li><strong>Network state</strong>: tells Wi-Fi from mobile data, whether the connection is metered, and whether a VPN is active, to label the screens and guard the speed test.</li>
+    <li><strong>Internet</strong>: used only by the speed test.</li>
+    <li><strong>Usage access</strong>: optional, granted by you in Android settings. Lets the app read Android's record of how many bytes each app used, to show per-app usage and check daily budgets. Read on demand and never sent anywhere. Revoking it stops this immediately.</li>
+    <li><strong>App names</strong>: the names of apps with a launcher icon (and of Google Play services, the Play Store and Android System WebView) are read to label per-app usage. Other apps are shown together as “Other apps &amp; services”. The app cannot see the full list of installed apps.</li>
+    <li><strong>Battery settings</strong>: the app does not ask for a battery-optimisation exemption. The row in Settings &gt; Startup only opens Android's battery settings, where you decide.</li>
+  </ul>
+
+  <h2>Backups, exports and crash reports</h2>
+  <ul>
+    <li><strong>Backup &amp; Restore</strong>: a backup is written only when you ask, to a file location you choose. It contains your settings, usage history, SIM names and app budgets as plain JSON.</li>
+    <li><strong>CSV export</strong>: written only when you ask, to a location you choose.</li>
+    <li><strong>Crash reports</strong>: shared only if you tap Share on the crash report yourself.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Shunno Meter is not directed at children under 13.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be published at this address with a new “Last updated” date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: <a href="https://github.com/saminul-amin/shunno-labs/issues">open an issue</a> at github.com/saminul-amin/shunno-labs.</p>
+
+  <footer>© 2026 Shunno Labs</footer>
+</main>
+</body>
+</html>
