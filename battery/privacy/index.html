@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · Shunno Battery</title>
+  <meta name="description" content="Privacy policy for Shunno Battery by Shunno Labs.">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<main>
+  <header class="site"><a href="../../">Shunno Labs</a></header>
+
+  <h1>Privacy Policy — Shunno Battery</h1>
+  <p class="muted">Last updated: 10 October 2026</p>
+
+  <p>Shunno Battery is published by Shunno Labs. This policy explains what the app does with your data.</p>
+
+  <p class="lead">Shunno Battery collects no data and shares no data. It does not have the internet permission, so it cannot send anything anywhere.</p>
+
+  <ul>
+    <li>No analytics, no advertising, no trackers, no crash reporting, no accounts, no in-app purchases.</li>
+    <li>Battery readings, charge history, alarm rules and settings stay on your device. We have no servers and receive none of your data.</li>
+    <li>Uninstalling the app deletes all of its data from your device.</li>
+  </ul>
+
+  <h2>What the app reads</h2>
+  <p>The app reads what Android reports about the battery through the public BatteryManager API: level, charging status, plug type, voltage, temperature, current, the charge counter, the battery technology and the system’s coarse battery-condition flag. These describe the battery, not you.</p>
+
+  <h2>What the app stores</h2>
+  <p>While monitoring is switched on, the app stores battery readings and charge sessions (start and end time, levels, duration, temperatures, current, charge added and an estimated capacity) in a database in its own private storage on your device. It also stores your settings, your alarm rules and how this phone reports charging current.</p>
+  <p>Nothing is stored anywhere else. The app opts out of Android’s cloud backup and of device-to-device transfer, so its data is not copied to Google’s backup service or to a new phone.</p>
+  <p>History is kept for the period you choose in Settings (30 days, 90 days, one year, or forever) and is pruned automatically after that. <strong>Delete all data</strong> in Settings removes everything and returns the app to a fresh install.</p>
+
+  <h2>Data that leaves your device</h2>
+  <p>Nothing, unless you export it. <strong>Export as CSV</strong> writes your charge history to a file at a location you pick through the system file picker. That file is yours; the app never reads it back and never sends it anywhere.</p>
+
+  <h2>Permissions and what they are used for</h2>
+  <p>Every item below is used only on your device.</p>
+  <ul>
+    <li><strong>Notifications</strong>: the live readout and the alarms are notifications. Requested when you turn monitoring on.</li>
+    <li><strong>Foreground service (special use)</strong>: monitoring runs as a foreground service with an ongoing notification while you keep it switched on. You can turn it off from the app or from the notification.</li>
+    <li><strong>Run at startup</strong>: monitoring resumes after a reboot, only if you left it on.</li>
+    <li><strong>Vibrate</strong>: vibrate-only alarms.</li>
+  </ul>
+  <p>Android also adds an internal permission that only lets the app’s own components send each other broadcasts; it grants no access to anything.</p>
+  <p>There is no internet permission, no location, contacts, storage or camera permission, no access to the list of installed apps, and no request to be exempted from battery optimisation (the app only opens the system list where you decide).</p>
+
+  <h2>Third parties</h2>
+  <p>There are none. No analytics SDK, no crash reporting, no advertising, no sign-in. The app’s only dependencies are AndroidX, Jetpack Compose and Kotlin libraries, all of which run entirely on the device.</p>
+
+  <h2>Children</h2>
+  <p>Shunno Battery is not directed at children under 13. It collects no information from anyone, children included.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be published at this address with a new “Last updated” date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: <a href="https://github.com/saminul-amin/shunno-labs/issues">open an issue</a> at github.com/saminul-amin/shunno-labs.</p>
+
+  <footer>© 2026 Shunno Labs</footer>
+</main>
+</body>
+</html>
